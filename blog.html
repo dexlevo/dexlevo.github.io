@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nervekey - blog</title>
+    <link rel="stylesheet" href="styles.css">
+<style> @import url('https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&family=Yuji+Syuku&display=swap'); </style>
+</head>
+<body class="blog-page">
+    <div class="container">
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="media.html">archive</a></li>
+            </ul>
+        </nav>
+
+        <header class="header">
+            <marquee behavior="scroll" direction="left" scrollamount="3">
+                ✦ blog ✦ blog ✦ blog ✦ blog ✦
+            </marquee>
+            <h1>blog</h1>
+        </header>
+
+        <main class="content">
+            <section class="blog-list" id="blogList">
+                <p class="loading">Loading posts...</p>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>nervekey 🅮 2025 ⟲ all rights reversed</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        loadBlogPosts();
+    </script>
+</body>
+</html>
