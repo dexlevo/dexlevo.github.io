@@ -51,7 +51,7 @@ body {
     padding: 15px 0;
 }
 
-. navigation ul {
+.navigation ul {
     list-style: lower roman;
     display: inline;
     gap: 40px;
@@ -77,7 +77,7 @@ body {
 }
 
 /* ===== HEADER ===== */
-. header {
+.header {
     text-align: center;
     margin-bottom: 50px;
     padding: 30px;
@@ -101,7 +101,7 @@ body {
     margin: 15px 0;
 }
 
-. tagline {
+.tagline {
     color: var(--text-muted);
     font-size: 14px;
     font-style: italic;
@@ -194,7 +194,7 @@ p {
     margin: 30px 0;
 }
 
-. marquee-section marquee {
+.marquee-section marquee {
     color: var(--accent-purple);
     font-size: 13px;
     font-weight: bold;
@@ -275,7 +275,7 @@ blockquote {
     margin: 15px 0 8px 0;
 }
 
-. blog-post-content p {
+.blog-post-content p {
     margin-bottom: 10px;
 }
 
@@ -415,14 +415,14 @@ blockquote {
 }
 
 /* ===== UTILITY CLASSES ===== */
-. text-center {
+.text-center {
     text-align: center;
 }
 
-. mt-20 {
+.mt-20 {
     margin-top: 20px;
 }
 
-. mb-20 {
+.mb-20 {
     margin-bottom: 20px;
 }
