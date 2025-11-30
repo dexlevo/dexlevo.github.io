@@ -38,7 +38,7 @@ async function loadBlogPosts() {
     
     try {
         // Fetch the list of blog files
-        const response = await fetch('./blog/');
+        const response = await fetch('blog/');
         const text = await response.text();
         
         // Parse directory listing
@@ -67,7 +67,7 @@ async function loadBlogPosts() {
  
         for (const file of blogFiles) {
             try {
-                const postResponse = await fetch(`./blog/${file}`);
+                const postResponse = await fetch(`blog/${file}`);
                 const postContent = await postResponse.text();
                 
                 
@@ -136,7 +136,7 @@ async function loadMediaCategory(category, extensions, elementId) {
     
     try {
 
-        const response = await fetch(`./media/${category}/`);
+        const response = await fetch(`media/${category}/`);
         const text = await response.text();
         
 
@@ -170,7 +170,7 @@ async function loadMediaCategory(category, extensions, elementId) {
             const fileElement = document.createElement('div');
             fileElement.className = 'media-item';
             fileElement.innerHTML = `
-                <a href="./media/${category}/${file}" title="${file}">
+                <a href="media/${category}/${file}" title="${file}">
                     ${escapeHtml(file)}
                 </a>
             `;
